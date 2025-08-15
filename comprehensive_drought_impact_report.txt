@@ -1,0 +1,41 @@
+================================================================================
+COMPREHENSIVE DROUGHT IMPACT ANALYSIS - PROBLEM 3
+================================================================================
+Analysis Date: 2025-08-15 15:16:34
+
+MODEL PERFORMANCE SUMMARY:
+--------------------------------------------------
+Random Forest             | R²: 0.9410 | RMSE: 633713.54 | MAE: 434459.77
+XGBoost                   | R²: 0.9332 | RMSE: 674717.31 | MAE: 483316.10
+Gradient Boosting         | R²: 0.9641 | RMSE: 494660.99 | MAE: 331087.13
+Ridge Regression          | R²: 0.9994 | RMSE: 63130.91 | MAE: 46227.16
+
+KEY FINDINGS:
+----------------------------------------
+Total countries analyzed: 25
+Countries with >20% export decline: 25
+Countries with >10% export decline: 25
+Countries with <5% export decline: 0
+
+TOP 5 MOST VULNERABLE COUNTRIES:
+----------------------------------------
+1. Sri Lanka: -100.5% change
+2. UK: -100.4% change
+3. Iran: -100.3% change
+4. Croatia: -100.1% change
+5. China: -100.0% change
+
+TOP 5 MOST RESILIENT COUNTRIES:
+----------------------------------------
+1. Russia: -99.2% change
+2. India: -99.2% change
+3. Israel: -99.1% change
+4. Saudi Arabia: -98.8% change
+5. Australia: -98.0% change
+
+STATISTICAL SUMMARY:
+----------------------------------------
+Mean export change: -99.60%
+Median export change: -99.67%
+Standard deviation: 0.52%
+Range: -100.49% to -98.05%

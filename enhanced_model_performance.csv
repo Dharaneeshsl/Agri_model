@@ -1,0 +1,5 @@
+Model,R2,RMSE,MAE,Best_Params
+Random Forest (Enhanced),0.9133551105768483,4097788.001167313,2872833.601176566,"{'max_depth': 15, 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 300}"
+XGBoost (Enhanced),0.9440084772326052,3294117.9835543945,2343868.669604257,"{'learning_rate': 0.05, 'max_depth': 8, 'n_estimators': 300, 'subsample': 0.8}"
+Extra Trees,0.9254427537397102,3801219.426685126,2621113.487762341,
+ElasticNet,0.9709019479458461,2374706.651919318,1800255.2576197502,
